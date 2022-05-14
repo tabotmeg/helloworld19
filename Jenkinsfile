@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout'){
             steps{
-               https://github.com/tabotmeg/helloworld19.git
+               git branch: 'master', url: 'https://github.com/tabotmeg/helloworld19.git'
             }
         }
         stage('Code Build') {
